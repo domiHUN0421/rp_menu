@@ -1,5 +1,5 @@
 nav {
-  background-color: pink;
+  background-color: rgb(8, 8, 8);
   display: flex;
   flex-direction: row;
   height: 50px;
@@ -9,7 +9,7 @@ nav {
 }
 
 nav a {
-  color: black;
+  color: rgb(28, 187, 100);
   font-size: 20px;
 }
 
@@ -17,6 +17,13 @@ nav a {
   nav {
     flex-direction: column;
     height: auto;
-    background-color: pink;
+    background-color: rgb(2, 2, 2);
   }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
 }
